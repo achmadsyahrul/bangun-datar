@@ -47,9 +47,9 @@ public class Main {
                     alas = input.nextDouble();
                     System.out.print("Masukkan tinggi : ");
                     tinggi = input.nextDouble();
-                    Segitiga sikuSiku = new Segitiga(alas,tinggi);
-                    System.out.println("Luas = " + sikuSiku.getLuas());
-                    System.out.println("Keliling = " + sikuSiku.getKeliling());
+                    Segitiga segitiga = new Segitiga(alas,tinggi);
+                    System.out.println("Luas = " + segitiga.getLuas());
+                    System.out.println("Keliling = " + segitiga.getKeliling());
                     break;
                 case 5:
                     System.out.print("Masukkan sisi : ");
